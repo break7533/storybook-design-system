@@ -7,6 +7,7 @@
 
 #### ⚠️ Pushed to `main`
 
+- added push action ([@break7533](https://github.com/break7533))
 - Added continuous integration ([@break7533](https://github.com/break7533))
 - New Avatar story ([@break7533](https://github.com/break7533))
 - global styles ([@break7533](https://github.com/break7533))
