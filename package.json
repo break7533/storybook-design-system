@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
@@ -27,7 +27,12 @@
   },
   "babel": {
     "presets": [
-      "react-app"
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
     ]
   },
   "browserslist": {
@@ -43,6 +48,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.7",
     "@storybook/addon-a11y": "^6.1.17",
     "@storybook/addon-actions": "^6.1.17",
@@ -51,6 +57,23 @@
     "@storybook/node-logger": "^6.1.17",
     "@storybook/preset-create-react-app": "^3.1.5",
     "@storybook/react": "^6.1.17",
-    "babel-loader": "8.1.0"
-  }
+    "auto": "^10.16.0",
+    "babel-loader": "8.1.0",
+    "cross-env": "^7.0.3"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/break7533/storybook-design-system.git"
+  },
+  "keywords": [
+    "storybook"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/break7533/storybook-design-system/issues"
+  },
+  "homepage": "https://github.com/break7533/storybook-design-system#readme"
 }
