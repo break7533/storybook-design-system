@@ -1,3 +1,15 @@
+# v0.1.1 (Wed Feb 10 2021)
+
+#### ⚠️ Pushed to `main`
+
+- trigger jobs ([@break7533](https://github.com/break7533))
+
+#### Authors: 1
+
+- Luis Lopes ([@break7533](https://github.com/break7533))
+
+---
+
 # v0.1.0 (Wed Feb 10 2021)
 
 #### 🐛 Bug Fix
