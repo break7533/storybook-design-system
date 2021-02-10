@@ -20,7 +20,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "build-storybook-docs": "build-storybook -s public --docs"
+    "build-storybook-docs": "build-storybook -s public --docs",
+    "release": "auto shipit --base-branch=main"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -70,7 +71,7 @@
   "keywords": [
     "storybook"
   ],
-  "author": "",
+  "author": "Luis Lopes <ll61295@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/break7533/storybook-design-system/issues"
